@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing Ember Betas</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-slide-content { font-size: 32px; }
+      .white { color: white; }
+    </style>
+  </script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+## Testing Ember Betas
+### Atlanta Ember
+### September 2018
+---
+class: center, middle
+There has been a trend of increasing instability in Ember Data over the last
+few releases.
+
+  \- [David Hamilton](https://discuss.emberjs.com/t/ember-data-3-2-x-3-3-x/15201)
+---
+class: center, middle
+We don't want to ship things that are broken.
+
+  \- [Robert Jackson](https://emberweekend.com/episodes/all-about-ember-data)
+---
+class: center, middle
+All the tests were passing.
+
+  \- [Robert Jackson](https://github.com/emberjs/data/issues/5472)
+---
+class: center, middle
+Stabilizing Ember Data by streamlining internals and providing more extension
+points for applications and addons to customize behavior.
+
+  \- [Tom Dale](https://github.com/tomdale/rfcs/blob/2018-roadmap/text/0000-roadmap-2018.md)
+---
+class: center, middle
+Ember is growing in new ways, and we’re going to need your help.
+
+  \-  [Matthew Beale](https://madhatted.com/2016/2/10/be-the-bark-ember-js-community)
+---
+class: center, middle
+Configure your apps/addons to test against ember-data beta
+
+  \- [runspired](https://github.com/emberjs/data/issues/5618)
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'javascript',
+          slideNumberFormat: ''
+        }) ;
+    </script>
+  </body>
+</html>
